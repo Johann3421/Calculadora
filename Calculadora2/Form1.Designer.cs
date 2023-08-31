@@ -68,7 +68,7 @@
             // lblHistorial
             // 
             lblHistorial.AutoSize = true;
-            lblHistorial.Location = new Point(17, 16);
+            lblHistorial.Location = new Point(35, 16);
             lblHistorial.Name = "lblHistorial";
             lblHistorial.RightToLeft = RightToLeft.No;
             lblHistorial.Size = new Size(0, 15);
@@ -233,7 +233,7 @@
             btnresultado.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnresultado.Location = new Point(212, 329);
             btnresultado.Name = "btnresultado";
-            btnresultado.Size = new Size(53, 54);
+            btnresultado.Size = new Size(171, 54);
             btnresultado.TabIndex = 20;
             btnresultado.Text = "=";
             btnresultado.UseVisualStyleBackColor = true;
@@ -266,7 +266,7 @@
             btnresta.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnresta.Location = new Point(212, 209);
             btnresta.Name = "btnresta";
-            btnresta.Size = new Size(53, 54);
+            btnresta.Size = new Size(171, 54);
             btnresta.TabIndex = 17;
             btnresta.Text = "-";
             btnresta.UseVisualStyleBackColor = true;
@@ -277,7 +277,7 @@
             btnsuma.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnsuma.Location = new Point(212, 269);
             btnsuma.Name = "btnsuma";
-            btnsuma.Size = new Size(53, 54);
+            btnsuma.Size = new Size(171, 54);
             btnsuma.TabIndex = 16;
             btnsuma.Text = "+";
             btnsuma.UseVisualStyleBackColor = true;
@@ -309,8 +309,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.MistyRose;
-            ClientSize = new Size(395, 401);
+            BackColor = Color.White;
+            ClientSize = new Size(407, 413);
             Controls.Add(potencia);
             Controls.Add(button1);
             Controls.Add(btnresultado);

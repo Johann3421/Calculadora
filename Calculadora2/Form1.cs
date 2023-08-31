@@ -9,7 +9,7 @@ namespace Calculadora2
         multiplicacion = 4,
         modulo = 5,
         potencia = 6,
-        raiz=7
+        raiz = 7
     }
     public partial class Form1 : Form
     {
@@ -237,6 +237,11 @@ namespace Calculadora2
         {
             operador = operacion.potencia;
             obtenervalor("^2");
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
