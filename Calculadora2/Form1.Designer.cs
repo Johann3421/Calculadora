@@ -49,6 +49,8 @@
             btnmultiplicar = new Button();
             btnresta = new Button();
             btnsuma = new Button();
+            button1 = new Button();
+            potencia = new Button();
             SuspendLayout();
             // 
             // cajaResultado
@@ -57,16 +59,18 @@
             cajaResultado.Location = new Point(35, 37);
             cajaResultado.Name = "cajaResultado";
             cajaResultado.ReadOnly = true;
-            cajaResultado.Size = new Size(230, 35);
+            cajaResultado.Size = new Size(348, 35);
             cajaResultado.TabIndex = 0;
             cajaResultado.Text = "0";
             cajaResultado.TextAlign = HorizontalAlignment.Right;
+            cajaResultado.TextChanged += cajaResultado_TextChanged;
             // 
             // lblHistorial
             // 
             lblHistorial.AutoSize = true;
             lblHistorial.Location = new Point(17, 16);
             lblHistorial.Name = "lblHistorial";
+            lblHistorial.RightToLeft = RightToLeft.No;
             lblHistorial.Size = new Size(0, 15);
             lblHistorial.TabIndex = 1;
             // 
@@ -222,6 +226,7 @@
             btnpunto.TabIndex = 15;
             btnpunto.Text = ".";
             btnpunto.UseVisualStyleBackColor = true;
+            btnpunto.Click += btnpunto_Click;
             // 
             // btnresultado
             // 
@@ -243,6 +248,7 @@
             btnBorrar.TabIndex = 19;
             btnBorrar.Text = "<";
             btnBorrar.UseVisualStyleBackColor = true;
+            btnBorrar.Click += btnBorrar_Click;
             // 
             // btnmultiplicar
             // 
@@ -277,11 +283,36 @@
             btnsuma.UseVisualStyleBackColor = true;
             btnsuma.Click += btnsuma_Click;
             // 
+            // button1
+            // 
+            button1.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(271, 89);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 54);
+            button1.TabIndex = 21;
+            button1.Text = "√";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // potencia
+            // 
+            potencia.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            potencia.Location = new Point(271, 149);
+            potencia.Name = "potencia";
+            potencia.Size = new Size(112, 54);
+            potencia.TabIndex = 22;
+            potencia.Text = "X^2";
+            potencia.UseVisualStyleBackColor = true;
+            potencia.Click += potencia_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(294, 407);
+            BackColor = Color.MistyRose;
+            ClientSize = new Size(395, 401);
+            Controls.Add(potencia);
+            Controls.Add(button1);
             Controls.Add(btnresultado);
             Controls.Add(btnBorrar);
             Controls.Add(btnmultiplicar);
@@ -303,8 +334,10 @@
             Controls.Add(btnuno);
             Controls.Add(lblHistorial);
             Controls.Add(cajaResultado);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -332,5 +365,7 @@
         private Button btnmultiplicar;
         private Button btnresta;
         private Button btnsuma;
+        private Button button1;
+        private Button potencia;
     }
 }
