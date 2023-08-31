@@ -1,0 +1,17 @@
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\bin\Debug\net6.0-windows\CalculadoraCientifica.exe
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\bin\Debug\net6.0-windows\CalculadoraCientifica.deps.json
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\bin\Debug\net6.0-windows\CalculadoraCientifica.runtimeconfig.json
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\bin\Debug\net6.0-windows\CalculadoraCientifica.dll
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\bin\Debug\net6.0-windows\CalculadoraCientifica.pdb
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.Form1.resources
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.dll
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\refint\CalculadoraCientifica.dll
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.pdb
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\CalculadoraCientifica.genruntimeconfig.cache
+C:\Users\Alumno\Desktop\HolaMundoC#\CalculadoraCientifica\obj\Debug\net6.0-windows\ref\CalculadoraCientifica.dll
