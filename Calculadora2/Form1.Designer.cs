@@ -76,6 +76,7 @@
             // 
             // btnuno
             // 
+            btnuno.FlatStyle = FlatStyle.Flat;
             btnuno.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnuno.Location = new Point(35, 269);
             btnuno.Name = "btnuno";
@@ -87,6 +88,7 @@
             // 
             // btndos
             // 
+            btndos.FlatStyle = FlatStyle.Flat;
             btndos.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btndos.Location = new Point(94, 269);
             btndos.Name = "btndos";
@@ -98,6 +100,7 @@
             // 
             // btntres
             // 
+            btntres.FlatStyle = FlatStyle.Flat;
             btntres.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btntres.Location = new Point(153, 269);
             btntres.Name = "btntres";
@@ -109,6 +112,7 @@
             // 
             // btnseis
             // 
+            btnseis.FlatStyle = FlatStyle.Flat;
             btnseis.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnseis.Location = new Point(153, 209);
             btnseis.Name = "btnseis";
@@ -120,6 +124,7 @@
             // 
             // btncinco
             // 
+            btncinco.FlatStyle = FlatStyle.Flat;
             btncinco.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btncinco.Location = new Point(94, 209);
             btncinco.Name = "btncinco";
@@ -131,6 +136,7 @@
             // 
             // btncuatro
             // 
+            btncuatro.FlatStyle = FlatStyle.Flat;
             btncuatro.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btncuatro.Location = new Point(35, 209);
             btncuatro.Name = "btncuatro";
@@ -142,6 +148,7 @@
             // 
             // btnnueve
             // 
+            btnnueve.FlatStyle = FlatStyle.Flat;
             btnnueve.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnnueve.Location = new Point(153, 149);
             btnnueve.Name = "btnnueve";
@@ -153,6 +160,7 @@
             // 
             // btnocho
             // 
+            btnocho.FlatStyle = FlatStyle.Flat;
             btnocho.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnocho.Location = new Point(94, 149);
             btnocho.Name = "btnocho";
@@ -164,6 +172,7 @@
             // 
             // btnsiete
             // 
+            btnsiete.FlatStyle = FlatStyle.Flat;
             btnsiete.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnsiete.Location = new Point(35, 149);
             btnsiete.Name = "btnsiete";
@@ -175,6 +184,7 @@
             // 
             // btnReset
             // 
+            btnReset.FlatStyle = FlatStyle.Flat;
             btnReset.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnReset.Location = new Point(153, 89);
             btnReset.Name = "btnReset";
@@ -186,6 +196,7 @@
             // 
             // btnDivision
             // 
+            btnDivision.FlatStyle = FlatStyle.Flat;
             btnDivision.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnDivision.Location = new Point(94, 89);
             btnDivision.Name = "btnDivision";
@@ -197,6 +208,7 @@
             // 
             // btnModulo
             // 
+            btnModulo.FlatStyle = FlatStyle.Flat;
             btnModulo.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnModulo.Location = new Point(35, 89);
             btnModulo.Name = "btnModulo";
@@ -208,6 +220,7 @@
             // 
             // btncero
             // 
+            btncero.FlatStyle = FlatStyle.Flat;
             btncero.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btncero.Location = new Point(35, 329);
             btncero.Name = "btncero";
@@ -219,6 +232,7 @@
             // 
             // btnpunto
             // 
+            btnpunto.FlatStyle = FlatStyle.Flat;
             btnpunto.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnpunto.Location = new Point(153, 329);
             btnpunto.Name = "btnpunto";
@@ -230,6 +244,7 @@
             // 
             // btnresultado
             // 
+            btnresultado.FlatStyle = FlatStyle.Flat;
             btnresultado.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnresultado.Location = new Point(212, 329);
             btnresultado.Name = "btnresultado";
@@ -241,6 +256,7 @@
             // 
             // btnBorrar
             // 
+            btnBorrar.FlatStyle = FlatStyle.Flat;
             btnBorrar.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnBorrar.Location = new Point(212, 89);
             btnBorrar.Name = "btnBorrar";
@@ -252,6 +268,7 @@
             // 
             // btnmultiplicar
             // 
+            btnmultiplicar.FlatStyle = FlatStyle.Flat;
             btnmultiplicar.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnmultiplicar.Location = new Point(212, 149);
             btnmultiplicar.Name = "btnmultiplicar";
@@ -263,6 +280,7 @@
             // 
             // btnresta
             // 
+            btnresta.FlatStyle = FlatStyle.Flat;
             btnresta.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnresta.Location = new Point(212, 209);
             btnresta.Name = "btnresta";
@@ -274,6 +292,7 @@
             // 
             // btnsuma
             // 
+            btnsuma.FlatStyle = FlatStyle.Flat;
             btnsuma.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnsuma.Location = new Point(212, 269);
             btnsuma.Name = "btnsuma";
@@ -285,6 +304,7 @@
             // 
             // button1
             // 
+            button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(271, 89);
             button1.Name = "button1";
@@ -296,6 +316,7 @@
             // 
             // potencia
             // 
+            potencia.FlatStyle = FlatStyle.Flat;
             potencia.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             potencia.Location = new Point(271, 149);
             potencia.Name = "potencia";
