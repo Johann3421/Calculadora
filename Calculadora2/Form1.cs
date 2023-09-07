@@ -9,7 +9,11 @@ namespace Calculadora2
         multiplicacion = 4,
         modulo = 5,
         potencia = 6,
-        raiz = 7
+        raiz = 7,
+        seno = 8,
+        coseno = 9,
+        tangente = 10,
+        logaritmo = 11
     }
     public partial class Form1 : Form
     {
@@ -33,6 +37,33 @@ namespace Calculadora2
                 cajaResultado.Text += numero;
             }
         }
+        private double CalcularTrigonométrica(operacion op, double valor)
+        {
+            switch (op)
+            {
+                case operacion.seno:
+                    return Math.Sin(valor);
+                case operacion.coseno:
+                    return Math.Cos(valor);
+                case operacion.tangente:
+                    return Math.Tan(valor);
+                default:
+                    return 0;
+            }
+        }
+        private double CalcularLogaritmo(double valor)
+        {
+            if (valor > 0)
+            {
+                return Math.Log10(valor);
+            }
+            else
+            {
+                lblHistorial.Text = "El logaritmo de un numero negativo o cero no esta definido.";
+                return 0;
+            }
+        }
+
         private double EjecutarOperacion()
         {
             double resultado = 0;
@@ -66,6 +97,14 @@ namespace Calculadora2
                     break;
                 case operacion.raiz:
                     resultado = valor1 = Math.Sqrt(valor1);
+                    break;
+                case operacion.seno:
+                case operacion.coseno:
+                case operacion.tangente:
+                    resultado = CalcularTrigonométrica(operador, valor1);
+                    break;
+                case operacion.logaritmo:
+                    resultado = CalcularLogaritmo(valor1);
                     break;
             }
             return resultado;
@@ -242,6 +281,43 @@ namespace Calculadora2
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            operador = operacion.seno;
+            obtenervalor("Sen");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            operador = operacion.coseno;
+            obtenervalor("Cos");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            operador = operacion.tangente;
+            obtenervalor("Tan");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            operador = operacion.logaritmo;
+            obtenervalor("Log");
         }
     }
 }
